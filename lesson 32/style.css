@@ -1,0 +1,38 @@
+body{
+	margin: 0;
+}
+.box{
+	text-align: center;
+}
+#text{
+	width: 1100px;
+}
+.box1 #image{
+	width: 1100px;
+}
+.btn{
+	font-size: 60px;
+	background-color: rgb(245, 194, 66);
+	border: solid 3px #5de310;
+	display: inline-block;
+	border-radius: 5px;
+	padding: 4px;
+	line-height: 50px;
+	box-shadow: 0 0 5px #000;
+	text-shadow: 0 0 3px #000;
+	transition-duration: 750ms;
+	transition-property: padding margin;
+	margin: 5px;
+	padding: 5px;
+	font-family: font2;
+	/*background-color: rgb(60, 84, 222);*/
+	width: 250px;
+	height: 50px;
+	transition-delay: 250ms;
+}
+.btn:hover{
+	padding: 8px;
+	margin: 2px;
+	background-color: rgb(242, 239, 31);
+	color: rgb(31, 242, 144);
+}
